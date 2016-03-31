@@ -1,18 +1,18 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
     "title": "MicroServices Deploy Stage",
-    "description": "Feb Demo Microservices GitHub Schema",
+    "description": "Feb Demo Microservices GitHub Schema hello-world",
     "longDescription": "The GitHub Service allows you to create or use an existing GitHub repository to store your source code.",
     "type": "object",
     "properties": {
-        "catalog-api-repo_name": {
+        "hello-world-repo_name": {
             "type": "string"
         },
-        "catalog-api-repo_url": {
+        "hello-world-repo_url": {
             "type": "string"
         }
     },
-    "required": ["catalog-api-repo_name", "catalog-api-repo_url"],
+    "required": ["hello-world-repo_name", "hello-world-repo_url"],
     "form": [
       {
         "type": "validator",
@@ -37,7 +37,7 @@
             },
             {
               "type": "text",
-              "key": "catalog-api-repo_url"
+              "key": "hello-world-repo_url"
             },
             {
               "type": "icon",
@@ -45,7 +45,7 @@
             },
             {
               "type": "text",
-              "key": "catalog-api-repo_name"
+              "key": "hello-world-repo_name"
             }
         ]
       }
