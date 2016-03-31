@@ -87,5 +87,5 @@ github:
   schema: github.json
   service-category: githubpublic
   parameters:
-    catalog-api-repo_name: "hello-world-{{name}}"
-    catalog-api-repo_url: https://github.com/danawilson/HelloStarterApp
+    hello-world-repo_name: "hello-world-{{name}}"
+    hello-world-repo_url: https://github.com/danawilson/HelloStarterApp
