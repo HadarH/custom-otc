@@ -41,12 +41,12 @@
             "description": "The bluemix space",
             "type": "string"
         },
-       "catalog-app-name": {
+       "hello-world-name": {
             "description": "catalog app name",
             "type": "string"
         }
     },
-    "required": ["dev-region", "dev-organization", "dev-space", "qa-region", "qa-organization", "qa-space", "prod-region", "prod-organization", "prod-space", "catalog-app-name"],
+    "required": ["dev-region", "dev-organization", "dev-space", "qa-region", "qa-organization", "qa-space", "prod-region", "prod-organization", "prod-space", "hello-world-name"],
     "form": [
        {
           "type": "validator",
@@ -56,7 +56,7 @@
           "type": "text",
           "readonly": true,
           "title": "Catalog App Name",
-          "key": "catalog-app-name"
+          "key": "hello-world-name"
         },
         {
             "type": "table",
