@@ -80,7 +80,7 @@ deploy:
     dev-space: dev
     qa-space: qa
     prod-space: prod
-    catalog-app-name: "{{hello-world-repo.parameters.repo_name}}"
+    hello-world-name: "{{hello-world-repo.parameters.repo_name}}"
 
 #Github
 github:
