@@ -42,7 +42,7 @@
             "type": "string"
         },
        "hello-world-name": {
-            "description": "catalog app name",
+            "description": "hello world app name",
             "type": "string"
         }
     },
@@ -55,7 +55,7 @@
         {
           "type": "text",
           "readonly": true,
-          "title": "Catalog App Name",
+          "title": "Hello World App Name",
           "key": "hello-world-name"
         },
         {
