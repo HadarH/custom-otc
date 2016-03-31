@@ -2,7 +2,6 @@
 name: "This should be a short description of your toolchain that will show up on the creation page"
 description: "Provide an extended description for what your toolchain is and does here.  This will be displayed on the toolchain creation page"
 version: 0.2
-image:
 required:
  - deploy
  - github
