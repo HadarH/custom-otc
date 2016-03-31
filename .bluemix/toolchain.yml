@@ -8,7 +8,7 @@ required:
  - test
 
 # Github repos
-catalog-api-repo:
+hello-world-repo:
   service_id: githubpublic
   parameters:
     repo_name: "{{github.parameters.hello-world-repo_name}}"
@@ -18,7 +18,7 @@ catalog-api-repo:
   hidden: [form, description]    
 
 # Pipelines
-catalog-api-build:
+hello-world-build:
   service_id: pipeline
   parameters:
     name: "hello-world-{{name}}"
