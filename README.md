@@ -7,3 +7,4 @@ To get started, press this button.
 
 <!--
 To follow a tutorial on using this toolchain and sample to learn how to add tools and make code changes, please see <a href="x">Simple toolchain tutorial</a>
+-->
