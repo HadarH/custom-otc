@@ -8,8 +8,6 @@ required:
  - deploy
  - github
 
-
-
 # Github repos
 hello-world-repo:
   service_id: githubpublic
