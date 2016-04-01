@@ -7,7 +7,7 @@ image: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBw
 required:
  - deploy
  - github
- - test
+
 
 
 # Github repos
@@ -42,32 +42,10 @@ hello-world-build:
       PROD_REGION_ID: "{{deploy.parameters.prod-region}}"
   hidden: [form, description]
     
-#Timeline Analytics
-events:
-  service_id: timeline
 
-#Slack
-messaging:
-  service_id: slack
-  metadata: slack.yml
-
-#Sauce Laps
-test:
-  service_id: saucelabs
-  metadata: saucelabs.yml
-
-#Pager Duty
-alerting:
-  service_id: pagerduty
-  metadata: pagerduty.yml
-  
 #Web IDE
 webide:
   service_id: orion
-
-#Active Deploy
-greenblue:
-  service_id: activedeploy
   
 #Deployment
 deploy:
@@ -91,4 +69,4 @@ github:
   service-category: githubpublic
   parameters:
     hello-world-repo_name: "hello-world-{{name}}"
-    hello-world-repo_url: https://github.com/danawilson/HelloStarterApp
+    hello-world-repo_url: https://github.com/HadarH/hello-world
