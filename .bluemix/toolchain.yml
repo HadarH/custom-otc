@@ -25,7 +25,7 @@ hello-world-build:
   service_id: pipeline
   parameters:
     name: "hello-world-{{name}}"
-    metadata: hello-world.pipeline.yml
+    include: hello-world.pipeline.yml
     env:
       GIT_REPO_URL: ${hello-world-repo.parameters.repo-url}
       SAUCE_USER: "{{test.parameters.username}}"
