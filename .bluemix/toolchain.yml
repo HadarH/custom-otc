@@ -26,9 +26,9 @@ hello-world-build:
   parameters:
     name: "hello-world-{{name}}"
     ui-pipeline: true
-    confirguration: 
-    content: $file(hello-world.pipeline.yml)
-    env:
+    configuration: 
+     content: $file(hello-world.pipeline.yml)
+     env:
       HELLO_WORLD_REPO: "hello-world-repo"
       CF_APP_NAME: "{{deploy.parameters.hello-world-name}}"
       DEV_SPACE_NAME: "{{deploy.parameters.dev-space}}"
