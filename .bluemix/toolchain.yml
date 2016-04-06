@@ -8,8 +8,6 @@ required:
  - deploy
  - github
 
-
-
 # Github repos
 hello-world-repo:
   service_id: githubpublic
@@ -27,7 +25,7 @@ hello-world-build:
     name: "hello-world-{{name}}"
     metadata: hello-world.pipeline.yml
     env:
-      GIT_REPO_URL: ${hello-world-repo.parameters.repo-url}
+      HELLO_WORLD_REPO: "hello-world-repo"
       SAUCE_USER: "{{test.parameters.username}}"
       API_KEY: "{{test.parameters.key}}"
       CF_APP_NAME: "{{deploy.parameters.hello-world-name}}"
