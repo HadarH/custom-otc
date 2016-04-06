@@ -54,7 +54,7 @@
        },        
         {
           "type": "text",
-          "readonly": true,
+          "readonly": false,
           "title": "Hello World App Name",
           "key": "hello-world-name"
         },
