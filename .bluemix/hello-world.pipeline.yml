@@ -4,8 +4,7 @@ stages:
   inputs:
   - type: git
     branch: master
-    url: ${GIT_REPO_URL}
-    token: ${GIT_REPO_TOKEN}
+    service: ${HELLO_WORLD_REPO}
   triggers:
   - type: commit
   jobs:
